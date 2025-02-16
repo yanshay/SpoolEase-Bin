@@ -1,6 +1,6 @@
 {
   "name": "SpoolEase",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "improv": true,
   "new_install_prompt_erase": false,
   "builds": [
@@ -9,7 +9,7 @@
       "parts": [
         { "path": "boot-loader.bin", "offset": 0 },
         { "path": "partition-table.bin", "offset": 32768 },
-        { "path": "SpoolEase-0.1.2.bin", "offset": 4194304 }
+        { "path": "SpoolEase-0.1.3.bin", "offset": 2097152 }
       ]
     }
   ]
