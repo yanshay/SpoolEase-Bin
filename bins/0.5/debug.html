@@ -242,10 +242,10 @@
         <div>
           <div style="">
             <esp-web-install-button
-              manifest="console/debug/manifest-upgrade-0.5.0-a1.json"
+              manifest="console/debug/manifest-upgrade-cargo_version.json"
             >
               <button slot="activate" class="start-button">
-                Console 0.5.0-a1<br/>(Crome/Edge Only)
+                Console cargo_version<br/>(Crome/Edge Only)
               </button>
             </esp-web-install-button>
           </div>
@@ -392,30 +392,16 @@
         </div>
 
         <ul>
-            <li>More logs to debug Scale OTA</li>
+            <li>Fix OTA version comparison</li>
+            <li>Prevent panic with scale security key is not set</li>
         </ul>
         <div>
           <div style="">
             <esp-web-install-button
-              manifest="console/debug/manifest-upgrade-0.5.0-b.1.json"
+              manifest="console/debug/manifest-upgrade-0.5.2.json"
             >
               <button slot="activate" class="start-button">
-                Console 0.5.0-b.1<br/>(Crome/Edge Only)
-              </button>
-            </esp-web-install-button>
-          </div>
-        </div>
-
-        <ul>
-            <li> </li>
-        </ul>
-        <div>
-          <div style="">
-            <esp-web-install-button
-              manifest="console/debug/manifest-upgrade-0.5.2-b.1.json"
-            >
-              <button slot="activate" class="start-button">
-                Console 0.5.2-b.1<br/>(Crome/Edge Only)
+                Console 0.5.2<br/>(Crome/Edge Only)
               </button>
             </esp-web-install-button>
           </div>
@@ -441,10 +427,10 @@
         <div>
           <div style="margin-top: 5px;">
             <esp-web-install-button
-              manifest="scale/debug/manifest-upgrade-0.5.0-a1.json"
+              manifest="scale/debug/manifest-upgrade-cargo_version.json"
             >
               <button slot="activate" class="start-button">
-                Scale 0.5.0-a1<br />(Chrome / Edge Only)
+                Scale cargo_version<br />(Chrome / Edge Only)
               </button>
             </esp-web-install-button>
           </div>
@@ -492,6 +478,21 @@
             >
               <button slot="activate" class="start-button">
                 Scale 0.5.0-version = "0.5.0"<br />(Chrome / Edge Only)
+              </button>
+            </esp-web-install-button>
+          </div>
+        </div>
+
+        <ul>
+          <li>Fix OTA version comparison</li>
+        </ul>
+        <div>
+          <div style="margin-top: 5px;">
+            <esp-web-install-button
+              manifest="scale/debug/manifest-upgrade-0.5.2.json"
+            >
+              <button slot="activate" class="start-button">
+                Scale 0.5.2<br />(Chrome / Edge Only)
               </button>
             </esp-web-install-button>
           </div>
