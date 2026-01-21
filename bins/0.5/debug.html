@@ -470,17 +470,21 @@
         </div>
 
         <ul>
-            <li>DON'T use unless you know why </li>
-            <li>Test fix: on H2 dual extruders, when printer switch extruder using external spool, 
-                the spool-id is removed from the slot and appears as empty</li>
+            <li>Fix external slot handling, specifically identified on H2D, when printer switch extruder using 
+              external spool, the spool-id is removed from the slot and appears as empty, but external slot behavior
+              was incorrect on all printers in latest versions
+            </li>
+            <li>
+              Display AMS-HT nozzle icon on slots when printing correctly
+            </li>
         </ul>
         <div>
           <div style="">
             <esp-web-install-button
-              manifest="console/debug/manifest-upgrade-0.5.5-b.7.json"
+              manifest="console/debug/manifest-upgrade-0.5.5-b.8.json"
             >
               <button slot="activate" class="start-button">
-                Console 0.5.5-b.7<br/>(Crome/Edge Only)
+                Console 0.5.5-b.8<br/>(Crome/Edge Only)
               </button>
             </esp-web-install-button>
           </div>
