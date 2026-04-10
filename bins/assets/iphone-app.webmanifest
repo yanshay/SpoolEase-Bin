@@ -1,0 +1,14 @@
+{
+  "name": "SpoolEase",
+  "short_name": "SpoolEase",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "https://bin.spoolease.io/bins/assets/spoolease-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
