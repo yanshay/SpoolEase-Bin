@@ -1,0 +1,19 @@
+{
+  "name": "SpoolEase",
+  "version": "0.8.0-b.9",
+  "improv": true,
+  "new_install_prompt_erase": false,
+  "new_install_improv_wait_time": 30,
+  "builds": [
+    {
+      "chipFamily": "ESP32-S3",
+      "parts": [
+        { "path": "boot-loader.bin", "offset": 0 },
+        { "path": "partition-table.bin", "offset": 32768 },
+        { "path": "clear-ota.bin", "offset": 36864 },
+        { "path": "SpoolEase-0.8.0-b.9.bin", "offset": 2097152 },
+        { "path": "../../updater/web-install/esp-hal-app-updater-0.1.0.bin", "offset": 15204352 }
+      ]
+    }
+  ]
+}
