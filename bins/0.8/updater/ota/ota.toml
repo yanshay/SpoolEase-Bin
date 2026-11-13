@@ -1,4 +1,4 @@
-filename = "esp-hal-app-updater-0.1.0-dev.3.bin"
-version = "0.1.0-dev.3"
-filesize = 992928
-crc32 = "ca028dff"
+filename = "esp-hal-app-updater-0.1.0.bin"
+version = "0.1.0"
+filesize = 1121904
+crc32 = "abaad4d0"
